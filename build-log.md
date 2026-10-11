@@ -1,5 +1,11 @@
 # ReputationSync build log
 
+### 2026-10-11
+- Worked on: every story now shows who is driving it: who started it, which trusted sources endorse it, who disputes it.
+- What broke / was hard: LinkedIn looked like a top authority, because the platform is popular, until we credited posts to their authors.
+- Decided NOT to build: our own AI model to judge trust; simple track-record counting over time is cheaper and explains itself.
+- Lesson or surprise: real data caught problems that tidy test examples never showed, like a re-posting site ranked as a story's top driver.
+
 ### 2026-10-06
 - Worked on: designing how ReputationSync tells who is driving a story: who started it, who endorsed it, who only repeated it.
 - What broke / was hard: the free website-ranking list we planned to use turned out to be non-commercial only, so we switched sources.
