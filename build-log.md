@@ -1,5 +1,11 @@
 # ReputationSync build log
 
+### 2026-10-23
+- Worked on: giving ReputationSync a memory: every analysis is kept, stories are followed day by day, and two brands now run automatically each morning.
+- What broke / was hard: deciding what to do when storage is down; saving the run for later would have quietly created duplicate stories.
+- Decided NOT to build: forecasts of where a story will be in a week; they wait until real history can prove them right.
+- Lesson or surprise: trust should mean "was this source right?", not "is it popular?"; a small outlet can be early and correct.
+
 ### 2026-10-12
 - Worked on: checking our "who is driving this story" judgements against careful human reading of 66 real examples, then fixing the gaps.
 - What broke / was hard: a quiet timing bug made one live analysis skip a quarter of its news, including its most serious story.
