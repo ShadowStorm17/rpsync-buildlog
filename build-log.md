@@ -1,5 +1,11 @@
 # ReputationSync build log
 
+### 2026-10-28
+- Worked on: checking five days of real daily history, and teaching the system to remember yesterday's work instead of starting fresh each morning.
+- What broke / was hard: small stories appeared one day and vanished the next; the AI picks slightly differently from the same news.
+- Decided NOT to build: asking the AI to "remember" a list of stories; reusing our own saved links is steadier, cheaper and lasts longer.
+- Lesson or surprise: a fair test needs examples neither version has seen; our first comparison looked perfect only because the answers were memorised.
+
 ### 2026-10-23
 - Worked on: giving ReputationSync a memory: every analysis is kept, stories are followed day by day, and two brands now run automatically each morning.
 - What broke / was hard: deciding what to do when storage is down; saving the run for later would have quietly created duplicate stories.
