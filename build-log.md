@@ -1,5 +1,11 @@
 # ReputationSync build log
 
+### 2026-10-29
+- Worked on: deciding how to rank stories: those already believed come first, then those catching up fast, then open questions.
+- What broke / was hard: the test of yesterday's memory change found fewer tiny new stories, and nobody can yet say if they were real.
+- Decided NOT to build: a trained ranking model; with one week of history it would only guess, so simple visible rules come first.
+- Lesson or surprise: a reply from the brand does not end a story; it often starts a new chapter worth watching.
+
 ### 2026-10-28
 - Worked on: checking five days of real daily history, and teaching the system to remember yesterday's work instead of starting fresh each morning.
 - What broke / was hard: small stories appeared one day and vanished the next; the AI picks slightly differently from the same news.
